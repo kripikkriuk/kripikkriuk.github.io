@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kriukk!!</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: orange;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            margin-bottom: 20px;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        header:hover {
+            background-color: #ff7f27;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 0;
+            transition: color 0.3s ease-in-out;
+        }
+
+        header:hover h1 {
+            color: #fff;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-top: 0;
+            color: #333;
+            font-style: italic;
+            transition: color 0.3s ease-in-out;
+        }
+
+        header:hover p {
+            color: #555;
+        }
+
+        section#produk {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+
+        article {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 12px;
+            overflow: hidden;
+            margin: 15px;
+            width: 300px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+            position: relative;
+        }
+
+        article:hover {
+            transform: scale(1.05);
+        }
+
+        article img {
+            width: 100%;
+            max-height: 200px;
+            object-fit: cover;
+            border-radius: 12px;
+        }
+
+        article div {
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h2 {
+            font-size: 1.3em;
+            margin-bottom: 0.5em;
+        }
+
+        p.price {
+            font-weight: bold;
+            font-size: 1.1em;
+            margin: 0.5em 0;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 8px 12px;
+            border: none;
+            border-radius: 6px;
+            font-size: 1.1em;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Kriukk!!</h1>
+        <p>Nikmati kelezatan kripik singkong berkualitas</p>
+    </header>
+
+    <section id="produk">
+        <article>
+            <img src="https://www.imghippo.com/images/1702893284.jpg" alt="Makanan Ringan 1">
+            <div>
+                <h2>Matcha</h2>
+                <p class="price">Harga: $X.XX</p>
+                <button>Beli Sekarang</button>
+            </div>
+        </article>
+
+        <article>
+            <img src="https://www.imghippo.com/images/1702893231.jpg" alt="Makanan Ringan 2">
+            <div>
+                <h2>Milo</h2>
+                <p class="price">Harga: $X.XX</p>
+                <button>Beli Sekarang</button>
+            </div>
+        </article>
+
+        <article>
+            <img src="https://www.imghippo.com/images/1702893180.jpg" alt="Makanan Ringan 3">
+            <div>
+                <h2>Balado</h2>
+                <p class="price">Harga: $X.XX</p>
+                <button>Beli Sekarang</button>
+            </div>
+        </article>
+
+        <article>
+            <img src="https://www.imghippo.com/images/1702893127.jpg" alt="Makanan Ringan 4">
+            <div>
+                <h2>Original</h2>
+                <p class="price">Harga: $X.XX</p>
+                <button>Beli Sekarang</button>
+            </div>
+        </article>
+
+        <!-- Artikel lainnya -->
+
+    </section>
+
+</body>
+</html>
